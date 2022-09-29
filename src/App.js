@@ -35,7 +35,7 @@ function App() {
       <Card>
         {items.map((item) => {
           console.log(item);
-          <DisplayItem item={item} />
+          return <DisplayItem item={item} />
           })}
       </Card>
 
